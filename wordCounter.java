@@ -16,9 +16,8 @@ public class wordCounter {
 	
 	public wordCounter(File file) throws FileNotFoundException { // Constructor With Parameter
 		fl = file;
-		Scanner sc = new Scanner(fl); 
 		
-			wordSeparator();      
+		wordSeparator();      
 	}
 	
 	public void wordSeparator() throws FileNotFoundException { // Constructor Without Parameter
